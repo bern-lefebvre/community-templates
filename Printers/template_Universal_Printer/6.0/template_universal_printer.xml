@@ -39,7 +39,7 @@ created by Nico Wieczorek</description>
                     <trends>0</trends>
                     <value_type>CHAR</value_type>
                     <inventory_link>TYPE</inventory_link>
-                    <request_method>POST</request_method>
+                    #<request_method>POST</request_method>
                     <tags>
                         <tag>
                             <tag>Application</tag>
@@ -58,7 +58,7 @@ created by Nico Wieczorek</description>
                     <valuemap>
                         <name>Printer error state</name>
                     </valuemap>
-                    <request_method>POST</request_method>
+                    #<request_method>POST</request_method>
                     <tags>
                         <tag>
                             <tag>Application</tag>
@@ -85,7 +85,7 @@ created by Nico Wieczorek</description>
                     <valuemap>
                         <name>Printer status</name>
                     </valuemap>
-                    <request_method>POST</request_method>
+                    #<request_method>POST</request_method>
                     <tags>
                         <tag>
                             <tag>Application</tag>
@@ -103,7 +103,7 @@ created by Nico Wieczorek</description>
                     <trends>0</trends>
                     <value_type>CHAR</value_type>
                     <inventory_link>MACADDRESS_A</inventory_link>
-                    <request_method>POST</request_method>
+                    #<request_method>POST</request_method>
                     <tags>
                         <tag>
                             <tag>Application</tag>
@@ -120,7 +120,7 @@ created by Nico Wieczorek</description>
                     <history>1w</history>
                     <trends>0</trends>
                     <value_type>CHAR</value_type>
-                    <request_method>POST</request_method>
+                    #<request_method>POST</request_method>
                     <tags>
                         <tag>
                             <tag>Application</tag>
@@ -138,7 +138,7 @@ created by Nico Wieczorek</description>
                     <trends>0</trends>
                     <value_type>CHAR</value_type>
                     <inventory_link>SERIALNO_A</inventory_link>
-                    <request_method>POST</request_method>
+                    #<request_method>POST</request_method>
                     <tags>
                         <tag>
                             <tag>Application</tag>
@@ -156,7 +156,7 @@ created by Nico Wieczorek</description>
                     <valuemap>
                         <name>Printer status</name>
                     </valuemap>
-                    <request_method>POST</request_method>
+                    #<request_method>POST</request_method>
                     <tags>
                         <tag>
                             <tag>Application</tag>
@@ -174,7 +174,7 @@ created by Nico Wieczorek</description>
                     <valuemap>
                         <name>Printer status</name>
                     </valuemap>
-                    <request_method>POST</request_method>
+                    #<request_method>POST</request_method>
                     <tags>
                         <tag>
                             <tag>Application</tag>
@@ -202,7 +202,7 @@ created by Nico Wieczorek</description>
                             <history>1w</history>
                             <trends>0</trends>
                             <value_type>TEXT</value_type>
-                            <request_method>POST</request_method>
+                            #<request_method>POST</request_method>
                             <tags>
                                 <tag>
                                     <tag>Application</tag>
@@ -220,7 +220,7 @@ created by Nico Wieczorek</description>
                             <valuemap>
                                 <name>Printer cover state</name>
                             </valuemap>
-                            <request_method>POST</request_method>
+                            #<request_method>POST</request_method>
                             <tags>
                                 <tag>
                                     <tag>Application</tag>
@@ -237,7 +237,7 @@ created by Nico Wieczorek</description>
                             </trigger_prototypes>
                         </item_prototype>
                     </item_prototypes>
-                    <request_method>POST</request_method>
+                    #<request_method>POST</request_method>
                 </discovery_rule>
                 <discovery_rule>
                     <uuid>8d3f00d5f89f4c6ead061c783b045247</uuid>
@@ -256,7 +256,7 @@ created by Nico Wieczorek</description>
                             <value_type>FLOAT</value_type>
                             <units>%</units>
                             <params>100*last(//prtInputCurrentLevel[{#SNMPVALUE}])/last(//prtInputMaxCapacity[{#SNMPVALUE}])</params>
-                            <request_method>POST</request_method>
+                            #<request_method>POST</request_method>
                             <tags>
                                 <tag>
                                     <tag>Application</tag>
@@ -272,7 +272,7 @@ created by Nico Wieczorek</description>
                             <key>prtInputCurrentLevel[{#SNMPVALUE}]</key>
                             <delay>10m</delay>
                             <value_type>FLOAT</value_type>
-                            <request_method>POST</request_method>
+                            #<request_method>POST</request_method>
                             <tags>
                                 <tag>
                                     <tag>Application</tag>
@@ -290,7 +290,7 @@ created by Nico Wieczorek</description>
                             <history>1w</history>
                             <trends>0</trends>
                             <value_type>TEXT</value_type>
-                            <request_method>POST</request_method>
+                            #<request_method>POST</request_method>
                             <tags>
                                 <tag>
                                     <tag>Application</tag>
@@ -307,7 +307,7 @@ created by Nico Wieczorek</description>
                             <delay>1h</delay>
                             <history>1w</history>
                             <value_type>FLOAT</value_type>
-                            <request_method>POST</request_method>
+                            #<request_method>POST</request_method>
                             <tags>
                                 <tag>
                                     <tag>Application</tag>
@@ -325,7 +325,7 @@ created by Nico Wieczorek</description>
                             <history>1w</history>
                             <trends>0</trends>
                             <value_type>TEXT</value_type>
-                            <request_method>POST</request_method>
+                            #<request_method>POST</request_method>
                             <tags>
                                 <tag>
                                     <tag>Application</tag>
@@ -343,7 +343,7 @@ created by Nico Wieczorek</description>
                             <history>1w</history>
                             <trends>0</trends>
                             <value_type>TEXT</value_type>
-                            <request_method>POST</request_method>
+                            #<request_method>POST</request_method>
                             <tags>
                                 <tag>
                                     <tag>Application</tag>
@@ -361,7 +361,7 @@ created by Nico Wieczorek</description>
                             <history>1w</history>
                             <trends>0</trends>
                             <value_type>TEXT</value_type>
-                            <request_method>POST</request_method>
+                            #<request_method>POST</request_method>
                             <tags>
                                 <tag>
                                     <tag>Application</tag>
@@ -376,7 +376,7 @@ created by Nico Wieczorek</description>
                             <snmp_oid>.1.3.6.1.2.1.43.8.2.1.11.{#SNMPINDEX}</snmp_oid>
                             <key>prtInputStatus[{#SNMPVALUE}]</key>
                             <delay>10m</delay>
-                            <request_method>POST</request_method>
+                            #<request_method>POST</request_method>
                             <tags>
                                 <tag>
                                     <tag>Application</tag>
@@ -403,7 +403,7 @@ created by Nico Wieczorek</description>
                             <history>1w</history>
                             <trends>0</trends>
                             <value_type>TEXT</value_type>
-                            <request_method>POST</request_method>
+                            #<request_method>POST</request_method>
                             <tags>
                                 <tag>
                                     <tag>Application</tag>
@@ -412,7 +412,7 @@ created by Nico Wieczorek</description>
                             </tags>
                         </item_prototype>
                     </item_prototypes>
-                    <request_method>POST</request_method>
+                    #<request_method>POST</request_method>
                 </discovery_rule>
                 <discovery_rule>
                     <uuid>630c6e804df8493798fafaec39a68bfe</uuid>
@@ -432,7 +432,7 @@ created by Nico Wieczorek</description>
                             <history>1w</history>
                             <trends>0</trends>
                             <value_type>TEXT</value_type>
-                            <request_method>POST</request_method>
+                            #<request_method>POST</request_method>
                             <tags>
                                 <tag>
                                     <tag>Application</tag>
@@ -448,7 +448,7 @@ created by Nico Wieczorek</description>
                             <delay>10m</delay>
                             <units>%</units>
                             <params>100*last(//prtMarkerSuppliesLevel[{#SNMPVALUE}])/last(//prtMarkerSuppliesMaxCapacity[{#SNMPVALUE}])</params>
-                            <request_method>POST</request_method>
+                            #<request_method>POST</request_method>
                             <tags>
                                 <tag>
                                     <tag>Application</tag>
@@ -474,7 +474,7 @@ created by Nico Wieczorek</description>
                             <history>1w</history>
                             <trends>0</trends>
                             <value_type>CHAR</value_type>
-                            <request_method>POST</request_method>
+                            #<request_method>POST</request_method>
                             <tags>
                                 <tag>
                                     <tag>Application</tag>
@@ -490,7 +490,7 @@ created by Nico Wieczorek</description>
                             <key>prtMarkerSuppliesLevel[{#SNMPVALUE}]</key>
                             <delay>10m</delay>
                             <value_type>FLOAT</value_type>
-                            <request_method>POST</request_method>
+                            #<request_method>POST</request_method>
                             <tags>
                                 <tag>
                                     <tag>Application</tag>
@@ -507,7 +507,7 @@ created by Nico Wieczorek</description>
                             <delay>1h</delay>
                             <history>1w</history>
                             <value_type>FLOAT</value_type>
-                            <request_method>POST</request_method>
+                            #<request_method>POST</request_method>
                             <tags>
                                 <tag>
                                     <tag>Application</tag>
@@ -559,7 +559,7 @@ created by Nico Wieczorek</description>
                             </graph_items>
                         </graph_prototype>
                     </graph_prototypes>
-                    <request_method>POST</request_method>
+                    #<request_method>POST</request_method>
                 </discovery_rule>
                 <discovery_rule>
                     <uuid>5ba075d463c44c2b969baa794234886d</uuid>
@@ -579,7 +579,7 @@ created by Nico Wieczorek</description>
                             <history>1w</history>
                             <trends>0</trends>
                             <value_type>CHAR</value_type>
-                            <request_method>POST</request_method>
+                            #<request_method>POST</request_method>
                             <tags>
                                 <tag>
                                     <tag>Application</tag>
@@ -594,7 +594,7 @@ created by Nico Wieczorek</description>
                             <snmp_oid>.1.3.6.1.2.1.43.13.4.1.11.{#SNMPINDEX}</snmp_oid>
                             <key>prtMediaPathStatus[{#SNMPVALUE}]</key>
                             <delay>10m</delay>
-                            <request_method>POST</request_method>
+                            #<request_method>POST</request_method>
                             <tags>
                                 <tag>
                                     <tag>Application</tag>
@@ -612,7 +612,7 @@ created by Nico Wieczorek</description>
                             <history>1w</history>
                             <trends>0</trends>
                             <value_type>TEXT</value_type>
-                            <request_method>POST</request_method>
+                            #<request_method>POST</request_method>
                             <tags>
                                 <tag>
                                     <tag>Application</tag>
@@ -621,7 +621,7 @@ created by Nico Wieczorek</description>
                             </tags>
                         </item_prototype>
                     </item_prototypes>
-                    <request_method>POST</request_method>
+                    #<request_method>POST</request_method>
                 </discovery_rule>
                 <discovery_rule>
                     <uuid>7d83fa65a1614470be655a92b4681d4e</uuid>
@@ -641,7 +641,7 @@ created by Nico Wieczorek</description>
                             <history>1w</history>
                             <trends>0</trends>
                             <value_type>TEXT</value_type>
-                            <request_method>POST</request_method>
+                            #<request_method>POST</request_method>
                             <tags>
                                 <tag>
                                     <tag>Application</tag>
@@ -658,7 +658,7 @@ created by Nico Wieczorek</description>
                             <delay>1h</delay>
                             <history>1w</history>
                             <value_type>FLOAT</value_type>
-                            <request_method>POST</request_method>
+                            #<request_method>POST</request_method>
                             <tags>
                                 <tag>
                                     <tag>Application</tag>
@@ -674,7 +674,7 @@ created by Nico Wieczorek</description>
                             <key>prtOutputRemainingCapacity[{#SNMPVALUE}]</key>
                             <delay>10m</delay>
                             <value_type>FLOAT</value_type>
-                            <request_method>POST</request_method>
+                            #<request_method>POST</request_method>
                             <tags>
                                 <tag>
                                     <tag>Application</tag>
@@ -689,7 +689,7 @@ created by Nico Wieczorek</description>
                             <snmp_oid>.1.3.6.1.2.1.43.9.2.1.6.{#SNMPINDEX}</snmp_oid>
                             <key>prtOutputStatus[{#SNMPVALUE}]</key>
                             <delay>10m</delay>
-                            <request_method>POST</request_method>
+                            #<request_method>POST</request_method>
                             <tags>
                                 <tag>
                                     <tag>Application</tag>
@@ -707,7 +707,7 @@ created by Nico Wieczorek</description>
                             </trigger_prototypes>
                         </item_prototype>
                     </item_prototypes>
-                    <request_method>POST</request_method>
+                    #<request_method>POST</request_method>
                 </discovery_rule>
             </discovery_rules>
             <tags>
